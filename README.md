@@ -2,7 +2,7 @@
 
 # 
 
-# Name: YOUR FULL NAME
+# Name: ASHLEY MAE CABURNAY
 
 # Section: IV-BSIT A
 
@@ -10,21 +10,43 @@
 
 # 
 
-# Set 1 Activities
+# \## Set 1 Activities
 
 # 
 
-# Activity	Description										Folder
+|Activity			|Description							|Folder |
+|\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|\_\_\_\_\_\_\_|
+===
 
-# P1 – 		Grade Calculator	Calculates student grades.					P1
+# |P1 – Grade Calculator		|Calculates student grades.					|P1	|
 
-# P2 – 		Student Utilities	Uses Python modules and functions for student data.		P2
+# |P2 – Student Utilities		|Uses Python modules and functions for student data.		|P2	|
 
-# P3 – 		Student Record Manager	Adds, searches, removes, and displays student records.		P3
+# |P3 – Student Record Manager	|Adds, searches, removes, and displays student records.		|P3	|
 
-# P4 – 		Exception Handling	Handles errors and invalid inputs using exceptions.		P4
+|P4 – Exception Handling	|Handles errors and invalid inputs using exceptions.		|P4	|
+
+===
+
+
+
+# \## P1 Features
+
+# \- Accepts multiple student grades.
+
+# \- Validates inputs and grade ranges.
+
+# \- Calculates average, highest, and lowest grades.
+
+# \- Determines pass or fail status.
+
+# \- Uses a menu to enter grades, view results, and exit.
+
+
 
 # 
+
+
 
 
 
