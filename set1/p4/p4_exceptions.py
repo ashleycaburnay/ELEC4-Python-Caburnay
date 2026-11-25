@@ -25,7 +25,11 @@ def divide_numbers():
 
 
 def open_file():
-    file_name = input("Enter the file name: ")
+    file_name = input("Enter the file name: ").strip()
+
+    if not file_name:
+        print("File name cannot be empty.")
+        return
 
     try:
         with open(file_name, "r", encoding="utf-8") as file:
@@ -33,6 +37,9 @@ def open_file():
 
     except FileNotFoundError:
         print("Error! File not found.")
+
+    except PermissionError:
+        print("Error! Permission denied.")
 
     else:
         print("\n===== FILE CONTENTS =====")
