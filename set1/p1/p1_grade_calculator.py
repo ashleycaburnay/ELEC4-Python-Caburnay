@@ -72,11 +72,11 @@ def display_results():
         return
 
     print("\n===== STUDENT GRADE RESULTS =====")
+    print(f"Number of Grades: {len(grades)}")
     print(f"Average Grade: {calculate_average(grades):.2f}")
     print(f"Highest Grade: {get_highest(grades)}")
     print(f"Lowest Grade: {get_lowest(grades)}")
     print(f"Status: {get_status(grades)}")
-
 
 # Main menu
 def main():
