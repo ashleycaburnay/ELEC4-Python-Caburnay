@@ -41,6 +41,10 @@ def remove_student():
 def search_student():
     name = input("Enter name to search: ").strip().lower()
 
+    if not name:
+        print("Search name cannot be empty.")
+        return
+
     found = False
 
     for student in students:
@@ -50,7 +54,6 @@ def search_student():
 
     if not found:
         print("No matching student found.")
-
 
 def display_students():
     if not students:
