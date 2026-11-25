@@ -90,6 +90,34 @@
 
 # Screenshots
 
+### P1 – Student Grade Calculator
+
+![P1 Output](set1/p1/screenshots/p1_Output.png)
+
+![P1 Results](set1/p1/screenshots/p1_Results.png)
+
+### P2 – Student Grade Report
+
+![P2 Output](set1/p2/screenshots/p2_Output.png)
+
+### P3 – Student Record Manager
+
+![P3 Add Duplicate](set1/p3/screenshots/p3_Add_Duplicate.png)
+
+![P3 Add](set1/p3/screenshots/p3_Add.png)
+
+![P3 Display](set1/p3/screenshots/p3_Display.png)
+
+![P3 Remove](set1/p3/screenshots/p3_Remove.png)
+
+![P3 Search](set1/p3/screenshots/p3_Search.png)
+
+### P4 – Safe Menu Program
+
+![P4 File Menu Error](set1/p4/screenshots/P4_File_Menu_Error.png)
+
+![P4 Number Error](set1/p4/screenshots/P4_Number_Error.png)
+
 # 
 
 # Screenshots of the program outputs are included in each activity’s screenshots folder.
