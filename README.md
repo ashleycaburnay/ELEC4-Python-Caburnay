@@ -32,65 +32,59 @@ Branch: set2
 | P7 - Classes and Objects | Demonstrates object-oriented programming using classes and objects. | [Open P7](set2/p7/) |
 | P8 - Inheritance and Polymorphism | Demonstrates inheritance and polymorphism using parent and child classes. | [Open P8](set2/p8/) |
 
-## How to Run the Activities
+How to Run
 
-### 1. Install Python
-
-Download and install Python from:
-
-https://www.python.org/downloads/
-
-### 2. Clone this repository
-
-git clone https://github.com/ashleycaburnay/ELEC4-Python-Caburnay.git
-
-### 3. Open the repository folder
-
-cd ELEC4-Python-Caburnay
-
-How to Run the Activities
+Make sure Python 3 is installed. Open CMD or the terminal inside the repository folder. Run each activity using the commands below.
 
 Set 1
 
-P1 - Grade Calculator
-View Python File
+P1 - Student Grade Calculator
+
+I created a menu-driven program that calculates the average, highest grade, lowest grade, and pass or fail status of a student using functions.
 
 python set1/p1/p1_grade_calculator.py
 
 P2 - Python Modules
-View Python File
+
+This program uses separate Python modules to organize functions and demonstrate code reusability.
 
 python set1/p2/p2_main.py
 
 P3 - Student Record Manager
-View Python File
+
+This program manages student records by allowing users to add, display, search, and remove student information.
 
 python set1/p3/p3_record_manager.py
 
 P4 - Exception Handling
-View Python File
+
+This program demonstrates exception handling by managing invalid inputs, errors, and unexpected situations.
 
 python set1/p4/p4_exceptions.py
 
 Set 2
 
 P5 - File System
-View Python File
+
+This program uses file handling to store, display, search, and manage student records that remain saved even after the program closes.
 
 python set2/p5/p5_file_system.py
 
 P6 - Recursion Toolkit
-View Python File
+
+This program demonstrates recursion through different mathematical operations and recursive searching.
 
 python set2/p6/p6_recursion.py
 
 P7 - Classes and Objects
-View Python File
+
+This program demonstrates object-oriented programming using classes, objects, attributes, methods, and student record management.
 
 python set2/p7/p7_classes.py
 
 P8 - Inheritance and Polymorphism
-View Python File
+
+This program demonstrates inheritance and polymorphism by using parent and child classes with different behaviors.
 
 python set2/p8/p8_inheritance.py
   
