@@ -70,21 +70,17 @@ Replace filename.py with the actual Python filename.
 
 ## Screenshots
 
-Each activity contains screenshots of the program execution and required outputs.
+### Set 1
+- [P1 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set1/p1/screenshots)
+- [P2 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set1/p2/screenshots)
+- [P3 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set1/p3/screenshots)
+- [P4 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set1/p4/screenshots)
 
-### Set 1 Screenshots
-
-- P1 - Grade Calculator
-- P2 - Python Modules
-- P3 - Student Record Manager
-- P4 - Exception Handling
-
-### Set 2 Screenshots
-
-- P5 - File Input and Output
-- P6 - Recursion
-- P7 - Classes and Objects
-- P8 - Inheritance and Polymorphism
+### Set 2
+- [P5 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p5/screenshots)
+- [P6 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p6/screenshots)
+- [P7 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p7/screenshots)
+- [P8 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p8/screenshots)
 
 ## Technologies Used
 
