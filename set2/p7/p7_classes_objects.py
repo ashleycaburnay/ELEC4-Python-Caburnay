@@ -22,12 +22,36 @@ class Student:
         print(f"I am taking {self.course}.")
 
 
+def get_valid_text(prompt):
+    while True:
+        value = input(prompt).strip()
+
+        if value:
+            return value
+        else:
+            print("Input cannot be empty!")
+
+
+def get_valid_age():
+    while True:
+        try:
+            age = int(input("Enter student age: "))
+
+            if age > 0:
+                return age
+            else:
+                print("Age must be greater than zero.")
+
+        except ValueError:
+            print("Invalid input! Please enter a valid age.")
+
+
 def main():
     print("===== STUDENT CLASS PROGRAM =====")
 
-    name = input("Enter student name: ")
-    age = int(input("Enter student age: "))
-    course = input("Enter student course: ")
+    name = get_valid_text("Enter student name: ")
+    age = get_valid_age()
+    course = get_valid_text("Enter student course: ")
 
     student1 = Student(name, age, course)
 
