@@ -25,8 +25,8 @@ Set 2 - Python Programming Activities
 Branch: set-2
 
 Activity	Description	Folder
-P5 - Student File	Stores, displays, searches, and updates student records using files.	Open P5
-P6 - Recursion Toolkit	Uses recursive functions for mathematical operations and searching.	Open P6
+P5 - File Input and Output	Stores, displays, searches, and updates student records using files.	Open P5
+P6 - Recursion	Uses recursive functions for mathematical operations and searching.	Open P6
 P7 - Classes and Objects	Demonstrates object-oriented programming using classes and objects.	Open P7
 P8 - Inheritance and Polymorphism	Demonstrates inheritance and polymorphism using parent and child classes.	Open P8
 
@@ -38,7 +38,7 @@ Set 1
 
 P1 - Student Grade Calculator
 
-This program calculates the average, highest grade, lowest grade, and pass or fail status of a student using functions.
+I created a menu-driven program that calculates the average, highest grade, lowest grade, and pass or fail status of a student using functions.
 
 python set1/p1/p1_grade_calculator.py
 
@@ -62,7 +62,7 @@ python set1/p4/p4_exceptions.py
 
 Set 2
 
-P5 - Student File
+P5 - File Input and Output
 
 This program uses file handling to store, display, search, and manage student records that remain saved even after the program closes.
 
@@ -101,6 +101,7 @@ Each activity contains screenshots of the program execution and required outputs
 - [P6 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p6/screenshots)
 - [P7 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p7/screenshots)
 - [P8 Screenshots](https://github.com/ashleycaburnay/ELEC4-Python-Caburnay/tree/main/set2/p8/screenshots)
+  
 Technologies Used
 
 * Python
