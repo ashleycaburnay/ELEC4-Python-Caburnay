@@ -6,6 +6,7 @@
 FILE_NAME = "students.txt"
 
 
+# Function 1: Load student records from file
 def load_students():
     students = []
 
@@ -16,6 +17,7 @@ def load_students():
 
                 if len(data) == 4:
                     student_id, name, section, average = data
+
                     students.append({
                         "id": student_id,
                         "name": name,
@@ -29,6 +31,7 @@ def load_students():
     return students
 
 
+# Function 2: Save student records to file
 def save_students(students):
     with open(FILE_NAME, "w", encoding="utf-8") as file:
         for student in students:
@@ -38,8 +41,13 @@ def save_students(students):
             )
 
 
+# Function 3: Add student record
 def add_student(students):
     student_id = input("Enter Student ID: ").strip()
+
+    if not student_id:
+        print("Student ID cannot be empty!")
+        return
 
     for student in students:
         if student["id"] == student_id:
@@ -47,7 +55,16 @@ def add_student(students):
             return
 
     name = input("Enter full name: ").strip()
+
+    if not name:
+        print("Name cannot be empty!")
+        return
+
     section = input("Enter course/section: ").strip()
+
+    if not section:
+        print("Course/section cannot be empty!")
+        return
 
     try:
         average = float(input("Enter general average: "))
@@ -73,6 +90,7 @@ def add_student(students):
     print("Student record saved successfully!")
 
 
+# Function 4: Display all student records
 def display_students(students):
     if not students:
         print("No student records found.")
@@ -88,6 +106,7 @@ def display_students(students):
         print("--------------------------")
 
 
+# Function 5: Search student by ID
 def search_student(students):
     student_id = input("Enter Student ID to search: ").strip()
 
@@ -103,6 +122,7 @@ def search_student(students):
     print("Student not found.")
 
 
+# Function 6: Update student information
 def update_student(students):
     student_id = input("Enter Student ID to update: ").strip()
 
@@ -141,6 +161,7 @@ def update_student(students):
     print("Student not found.")
 
 
+# Main menu
 def main():
     students = load_students()
 
