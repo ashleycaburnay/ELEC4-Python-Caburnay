@@ -11,6 +11,13 @@ grades = []
 def enter_grades():
     global grades
 
+    if grades:
+        confirm = input("Replace existing grades? (y/n): ").lower()
+
+        if confirm != "y":
+            print("Grade entry cancelled.")
+            return
+
     while True:
         try:
             number = int(input("How many grades will you enter? "))
@@ -77,6 +84,7 @@ def display_results():
     print(f"Highest Grade: {get_highest(grades)}")
     print(f"Lowest Grade: {get_lowest(grades)}")
     print(f"Status: {get_status(grades)}")
+
 
 # Main menu
 def main():
