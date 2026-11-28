@@ -22,11 +22,32 @@ class Cat(Animal):
         print(f"{self.name} says: Meow!")
 
 
+<<<<<<< HEAD
 def main():
     print("===== INHERITANCE AND POLYMORPHISM =====")
 
     dog = Dog("Buddy")
     cat = Cat("Mimi")
+=======
+def get_valid_name(prompt):
+    while True:
+        name = input(prompt).strip()
+
+        if name:
+            return name
+        else:
+            print("Animal name cannot be empty!")
+
+
+def main():
+    print("===== INHERITANCE AND POLYMORPHISM =====")
+
+    dog_name = get_valid_name("Enter dog name: ")
+    cat_name = get_valid_name("Enter cat name: ")
+
+    dog = Dog(dog_name)
+    cat = Cat(cat_name)
+>>>>>>> 1fcd536 (P8 - Add animal name input validation)
 
     print("\nDog Information:")
     dog.make_sound()
