@@ -4,6 +4,14 @@
 # Activity: P6
 # Date: November 25, 2026
 
+def get_integer(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Invalid input! Please enter a whole number.")
+
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -37,7 +45,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            number = int(input("Enter a number: "))
+            number = get_integer("Enter a number: ")
 
             if number < 0:
                 print("Factorial is not defined for negative numbers.")
@@ -45,10 +53,12 @@ def main():
                 print("Factorial:", factorial(number))
 
         elif choice == "2":
-            number = int(input("Enter the number of terms: "))
+            number = get_integer("Enter the number of terms: ")
 
             if number <= 0:
                 print("Please enter a positive number.")
+            elif number > 30:
+                print("Please enter 30 terms or fewer.")
             else:
                 print("Fibonacci sequence:")
 
@@ -58,8 +68,14 @@ def main():
                 print()
 
         elif choice == "3":
-            number = int(input("Enter countdown starting number: "))
-            countdown(number)
+            number = get_integer("Enter countdown starting number: ")
+
+            if number < 0:
+                print("Please enter a non-negative number.")
+            elif number > 1000:
+                print("Please enter 1000 or less.")
+            else:
+                countdown(number)
 
         elif choice == "4":
             print("Thank you for using Recursion Toolkit!")
