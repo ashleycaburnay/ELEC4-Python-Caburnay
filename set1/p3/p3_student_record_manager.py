@@ -1,5 +1,5 @@
 # P3: Student Record Manager
-# Name:  ASHLEY MAE CABURNAY
+# Name: ASHLEY MAE CABURNAY
 # Section: IV-BSIT A
 # Date: November 24, 2026
 
@@ -17,21 +17,25 @@ def add_student():
         print("Name cannot be empty.")
         return
 
-    if name.lower() in student_names:
+    normalized_name = " ".join(name.split()).lower()
+
+    if normalized_name in student_names:
         print("Student already exists!")
     else:
+        name = " ".join(name.split())
         students.append(name)
-        student_names.add(name.lower())
+        student_names.add(normalized_name)
         print("Student added successfully!")
 
 
 def remove_student():
     name = input("Enter student name to remove: ").strip()
+    normalized_name = " ".join(name.split()).lower()
 
     for student in students:
-        if student.lower() == name.lower():
+        if " ".join(student.split()).lower() == normalized_name:
             students.remove(student)
-            student_names.remove(student.lower())
+            student_names.remove(normalized_name)
             print("Student removed successfully!")
             return
 
@@ -54,6 +58,7 @@ def search_student():
 
     if not found:
         print("No matching student found.")
+
 
 def display_students():
     if not students:
